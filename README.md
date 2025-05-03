@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Group 4 - Non-Profit Organization Website
 
 <h1 align="center">
@@ -75,3 +76,45 @@
 [events.html](https://github.com/justinoneill1/Wildlife-Rescue/blob/main/events.html)
 
 ![Screenshot 2024-12-04 223332](https://github.com/user-attachments/assets/6576e5f4-8714-4ab8-8148-4d5a9f7d826e)
+=======
+# 🐾 Wildlife Sanctuary Website
+**A Non-Profit Organization Committed to Conservation, Education, and Action**
+
+## 📚 About This Project
+
+This website was developed as a **group project** for the course **Web Design for Non-Profit Organizations** at **Pace University**, completed between **September 2024 – December 2024**.
+
+The goal of this project was to design a clean, informative, and impactful website for a fictional non-profit, highlighting real-world web design principles, accessibility, and mission-driven storytelling.
+
+## 🌿 About the Wildlife Sanctuary
+
+At the **Wildlife Sanctuary**, we are passionate about creating a world where all species can thrive. Our mission is rooted in the conservation of biodiversity and the restoration of ecosystems to ensure a balanced coexistence between wildlife and humanity.
+
+Since our creation, we’ve:
+- Provided a safe haven for endangered species
+- Conducted cutting-edge research
+- Developed environmental education programs
+- Fostered global and local community partnerships
+
+## 🌐 Website Features
+
+- Informative content about our mission, vision, and work  
+- Dedicated team section  
+- Clear calls to action for volunteering and donations  
+- Clean, responsive layout built with accessibility in mind  
+
+
+## 🧰 Tech Stack
+
+- HTML
+- CSS  
+- JavaScript  
+- Responsive Web Design Principles  
+
+## 👤 Team Members
+Yineiry Alarcon - Contact page (contact.html), Donate page (donate.html)  
+Pride Yin - Index page (index.html)  
+Chance Hoover - About page (about.html)  
+Justin O'Neill - Journey page (journey.html)  
+Jean-Sebastien Rateau - Events page (events.html)  
+>>>>>>> 6bc38826ecf759f11c738d9ae7e6dbde461a098d
