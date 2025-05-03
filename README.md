@@ -31,3 +31,10 @@ Since our creation, we’ve:
 - CSS  
 - JavaScript  
 - Responsive Web Design Principles  
+
+## 👤 Team Members
+Yineiry Alarcon - Contact page (contact.html), Donate page (donate.html)  
+Pride Yin - Index page (index.html)  
+Chance Hoover - About page (about.html)  
+Justin O'Neill - Journey page (journey.html)  
+Jean-Sebastien Rateau - Events page (events.html)  
