@@ -1,0 +1,576 @@
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    color: #2e2722;
+    font-size: 2em;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+h2 {
+    color: #2e2722;
+    font-size: 1.5em;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+h3 {
+    color: #2e2722;
+    font-size: 1.25em;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+p {
+    color: #2e2722;
+    font-size: 1em;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon img {
+    width: 300px;
+}
+
+#index {
+    background-image: linear-gradient(#899981, #dbd5b8);
+}
+
+.main-body {
+    padding: 2%;
+    margin: 5px;
+    margin-top: 30px;
+    background-color: #b8bfae;
+    border-radius: 10px;
+    box-shadow: #000 10px 10px 80px;
+    animation: fade-up 1s;
+}
+
+.index-body {
+    padding: 2%;
+    margin: 5px;
+    margin-top: 30px;
+    animation: fade-up 1s;
+}
+
+.index-body img {
+    width: 80%;
+    height: auto;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: #000 2px 2px 10px;
+}
+
+.index-body p {
+    font-size: 20px;
+    padding: 1%;
+}
+
+nav li a:hover {
+    color: #75cf8f;
+}
+
+.main-nav {
+    background-color: #59544c;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    animation: fade-up 1s;
+}
+
+.mobile-nav {
+    display: none;
+    margin: 10px;
+}
+
+.hero {
+    text-align: center;
+    margin: 2%;
+}
+
+.hero .stock {
+    display: inline-block;
+}
+
+.hero .stock p {
+    text-align: left;
+    margin-left: 70px;
+    font-family: Cambria;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.container {
+    text-align: center;
+    animation: fade-up 1s;
+}
+
+#content h1 {
+    font-size: 40px;
+    padding: 1%;
+}
+
+#content p {
+    font-size: 20px;
+    padding: 1%;
+}
+
+#content button {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    padding: 1%;
+    margin: 1%;
+    box-shadow: #000 2px 2px 10px;
+    border-radius: 5px;
+    background-color: #5c574b;
+    color: #fff;
+}
+
+#content button:hover {
+    background-color: #32a852;
+    cursor: pointer;
+}
+
+#content ul li {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+footer .footer-container {
+    font-size: 15px;
+    color: #000;
+    padding: 2% 4%;
+    float: left;
+}
+
+footer .footer-container a {
+    font-size: 15px;
+    color: #000;
+}
+
+footer .footer-container a img {
+    width: 30px;
+    height: auto;
+    margin: 1%;
+}
+
+.reach-out a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #59544c;
+}
+
+.aright-description {
+    text-align: right;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.aright-description h1 {
+    font-size: 60px;
+}
+
+.aleft-description {
+    text-align: left;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.aleft-description h1 {
+    font-size: 60px;
+}
+
+.body-description {
+    text-align: center;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.body-description h1 {
+    font-size: 60px;
+}
+
+.index-banner {
+    text-align: center;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.index-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 629px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav li {
+        display: block;
+        padding: 1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    nav ul a {
+        font-family: 'Frank Ruhl Libre', serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav li {
+        display: inline;
+        padding: 1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    nav ul a {
+        font-family: 'Frank Ruhl Libre', serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 1921px) { 
+    .container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+
+    nav li {
+        display: inline;
+        padding: 1%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    nav ul a {
+        font-family: 'Frank Ruhl Libre', serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    nav li a:hover {
+        color: #899981;
+        font-size: 32px;
+    }
+}
+
+/* Fade in animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fade-down {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* contact us style */
+/*
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+*/
+.container .contact-info a {
+    color: #000;
+}
+.section {
+    margin-bottom: 30px;
+}
+.address, .contact-info, .hours, .faq {
+    color:#000;
+    background: #ffffff;
+    text-align: center;
+    padding: 1px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+.faq-item h4 {
+    cursor: pointer;
+    margin: 0;
+    color: #2d6a4f;
+}
+.faq-item p {
+    margin: 0;
+    padding: 10px 0;
+    color: #333;
+}
+.contact-form input, .contact-form select, .contact-form textarea, .contact-form button {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact-form button {
+    background-color: #2d6a4f;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.contact-form button:hover {
+    background-color: #40916c;
+}
+table {
+    margin: 0 auto;
+}
+/* donate page style */
+#donate {
+    background-image: linear-gradient(#899981, #dbd5b8);
+}
+
+.donation-options {
+    text-align: left;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    background-color: #b8bfae;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: #000 5px 5px 50px; */
+}
+
+.donation-options form div {
+    margin-bottom: 15px;
+}
+
+.donation-options form label {
+    font-size: 1.2em;
+    /* color: #2e2722; */
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.donation-options form select, .donation-options form input {
+    width: 60%;
+    padding: 10px;
+    margin-top: 5px;
+    /* border: 1px solid #59544c; */
+    border-radius: 5px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 1em;
+}
+
+.button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #004d40;
+}
+
+/* Call-to-action link */
+.cta-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2e7d32; /* Green background */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.cta-link:hover, 
+.sign-up:hover {
+    background-color: #256b28; /* Darker green on hover */
+}
+
+.project-image {
+    width: auto; /* Use the image's intrinsic width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Scale down for smaller screens */
+    display: block;
+    margin: 0 auto;
+    object-fit: contain; /* Ensures the image is not distorted */
+    image-rendering: crisp-edges; /* Forces the browser to render the image sharply */
+}
+
+.latest-projects .project img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.latest-projects {
+    text-align: center; /* Aligns content */
+    margin: 2rem 0;
+}
+
+.project {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    color: #2d5c2d;
+}
+
+.project p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 20vh;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.block_div {
+    padding: 1rem;
+}
+
+.block_div p {
+    justify-content: left;
+}
+
+.block_div span{
+    display: block;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.block_reverse {
+    flex-direction: row-reverse;
+}
+
+.text, .image {
+    flex: 1;
+    width: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.text a {
+    width: 10em;
+}
+
+.sign-up {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e7d32; /* Customize button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Add space above the button */
+    font-size: 16px;
+    text-align: center;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .project-image {
+        max-width: 100%; /* Adjusts for smaller screens */
+    }
+
+    .block {
+        flex-direction: column;
+    }
+}
+
